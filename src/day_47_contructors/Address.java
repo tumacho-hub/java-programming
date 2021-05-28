@@ -18,6 +18,11 @@ public class Address {
 
 
  }
+  public Address(String Street, String city, String state, String zipCode, String country){
+
+
+
+  }
 
  @Override
         public  String toString(){
@@ -32,11 +37,18 @@ public class Address {
         return Street;
     }
 
-    public void setStreet(String street) {
-        Street = street;
-    }
 
-    public String getCity() {
+    public void setStreet(String street) {
+//        Street = street;
+//        if (Street.isEmpty() || Street.length()>50){
+//            System.out.println("Error: invalid street");
+//        }else{
+//            this.Street = Street;
+////            //  setStreet(Street);
+//
+
+    }
+        public String getCity() {
         return city;
     }
 
