@@ -7,6 +7,17 @@ public class Address {
  private    String state;
  private    String  zipCode;
  private    String country = "USA";
+ /// constructor -automatically called
+ public Address(){
+     System.out.println("Address constructor");
+     Street = "5738 erie st";
+     city = "chicago";
+     state = "illinois";
+     zipCode = "60651";
+
+
+
+ }
 
  @Override
         public  String toString(){
