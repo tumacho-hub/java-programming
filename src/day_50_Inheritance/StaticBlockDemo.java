@@ -78,10 +78,17 @@ public class StaticBlockDemo {
                 "Volvo"));
 
     }
-    // below i have an constructor with no arguments
+    {
+        System.out.println("Initializer block");
+    }
+    // below i have a constructor with no arguments
     public StaticBlockDemo(){
         System.out.println("Constructor method");
         num += 5;
 
+    }
+    public StaticBlockDemo(int value){
+        System.out.println("Overload it constructor - value = "+ value);
+        num = value;
     }
 }
