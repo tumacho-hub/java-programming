@@ -14,7 +14,7 @@ public class FirstLoop {
         while (apples <= 10) {
             System.out.println(apples + " apples are good");
 
-            apples++;
+           apples++;
 
 
         }
