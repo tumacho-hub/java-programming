@@ -24,7 +24,7 @@ public class ArrayLoopWithConditions {
                 System.out.print(price + " ");
             }
 
-        System.out.println("\n------ count of the prices that are mopre than  50 ---------");
+        System.out.println("\n------ count of the prices that are more than  50 ---------");
         int count = 0;
         for (double each : prices) {
             if (each > 50) {
