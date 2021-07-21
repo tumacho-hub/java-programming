@@ -8,4 +8,5 @@ public class DoWhileLoop {
             counter += 5;
         } while (counter <= 100);
     }
+
 }

@@ -1,5 +1,7 @@
 package OfficesHoursMainFolder.Practice_04_07_2021;
 
+import day_21_string_manipulation.charAt;
+
 public class DuplicateCharacters {
     /*
     IQ Duplicates Characters
@@ -14,25 +16,13 @@ public class DuplicateCharacters {
         String str = "AAABCCDEEF";
         String checked = "";
 
-
         for (int i = 0; i < str.length(); i++){
-           int count = 0;
+            int count = 0;
 
-           if (checked.contains("" + str.charAt(i))){
-               continue;
-           }
+            if (checked.contains(""+ str.charAt(i))){
+                continue;
 
-            for (int j = 0; j < str.length(); j++){
-
-                if (str.charAt(i) == str.charAt(j)){
-                    count++;
-
-                }
             }
-            if (count > 1){
-                System.out.println(str.charAt(i) + " is duplicate ");
-            }
-       checked += str.charAt(i) ;
         }
     }
 }
