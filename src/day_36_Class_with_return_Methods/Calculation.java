@@ -1,6 +1,7 @@
 package day_36_Class_with_return_Methods;
 
-public class Calculation {
+public class
+Calculation {
     public static void main(String[] args) {
         System.out.println("add 10+45 = " +Calculator.add(10,45));
         System.out.println("100 - 40 = "+ Calculator.minus(100,40));

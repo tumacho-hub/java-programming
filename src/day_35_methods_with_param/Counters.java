@@ -9,8 +9,8 @@ public class Counters {
         count(num2);
         String word = "wooden spoon";
         count(word.length());
-        getage(1986);
-        getage(1987);
+        getAge(1986);
+        getAge(1987);
         Etsy(word);
     }
 
@@ -25,9 +25,10 @@ public class Counters {
 
 public static void Etsy(String str){
     System.out.println("Wooden Spoon");
+
 }
 
-    public static void getage(int year) {
+    public static void getAge(int year) {
         int age = 2021 - year;
         System.out.println("Birthday: " + year + " age: " + age);
     }

@@ -12,6 +12,7 @@ public class trafficLightObject {
 
        light.changeColor("green");
        light.showColor();
+
     }
 
 }

@@ -24,7 +24,7 @@ public class WarmUpMethod {
         String secretUserName = "cybertekStudent";
         String secretPassword = "abc123";
         if (secretUserName.equalsIgnoreCase(userName) && secretPassword.equals(password)) {
-            System.out.println("Login Successful, Welcome Cybertek Student :) ");
+            System.out.println("Login Successful, Welcome to Cybertek Student :) ");
         } else {
             System.out.println("Incorrect username or password");
         }
