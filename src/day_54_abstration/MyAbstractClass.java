@@ -14,6 +14,7 @@ public abstract void close();  // <-- abstract method with no implementation, ju
  class Sub extends MyAbstractClass{
     //  it showing an error because sub class must implement/ override
     // override rule means same name same parameters
+
      public void close(){ // this is the implementation body the hows!!
          System.out.println("Close-Abstract method implementation");
 
@@ -29,7 +30,10 @@ class MyObjects{
             Sub sub = new Sub();
             sub.learn();
         System.out.println(sub.num);
-        System.out.println();
+        sub.close();
+
+
+
         }
     }
 

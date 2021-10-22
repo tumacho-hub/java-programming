@@ -1,7 +1,5 @@
 package day_56_abstraction.transportation;
 
-import day_56_abstraction.Plane;
-
 public class DrivableTest {
     public static void main(String[] args) {
         Tesla model3 = new Tesla();

@@ -16,7 +16,7 @@ public class Tesla extends Transportation implements SelfDrivable, Greeting {
 
     @Override
     public void autoPiloting() {
-        System.out.println("Tesla is driving autonomos ");
+        System.out.println("Tesla is driving autonomous ");
     }
 
     @Override

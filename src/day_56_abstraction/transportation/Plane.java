@@ -1,4 +1,4 @@
-package day_56_abstraction;
+package day_56_abstraction.transportation;
 
 import day_56_abstraction.greeting.Greeting;
 import day_56_abstraction.transportation.SelfDrivable;

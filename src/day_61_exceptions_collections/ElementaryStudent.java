@@ -25,7 +25,7 @@ public class ElementaryStudent {
     private String name;
     private int age;
 
-    public ElementaryStudent(){} // once we create our first constructor then we need to add a empty constructor to avoid errors
+    public ElementaryStudent(){} // once we create our first constructor then we need to add an empty constructor to avoid errors
 
     public ElementaryStudent(String name, int age) {//  <<----- constructor is method with the same name class and it allow me to
         // create object or new names
@@ -47,7 +47,7 @@ public class ElementaryStudent {
     }
 
     public void setName(String name) {
-        // check if name is null first otherwise we will get nullpointer exception
+        // check if name is null first, otherwise we will get NullPointerException
         if (name == null ||name.isEmpty()){
             throw new IllegalArgumentException("Name is not empty or null");
 

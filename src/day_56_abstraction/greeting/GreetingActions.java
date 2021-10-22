@@ -7,6 +7,7 @@ public class GreetingActions {
         mountainLanguage.bye();
 
         Greeting greeting = new MountainLanguage();
+
         greeting.hi();
         greeting.bye();
 

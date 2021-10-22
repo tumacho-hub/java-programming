@@ -7,7 +7,9 @@ package day_54_abstration;
 public abstract class Student {
 
     public void code(String language){
-        System.out.println("Student is coding using " + language); // we can provided implementation because is not abstract
+        // we can provide implementation because is not abstract
+        System.out.println("Student is coding using " + language);
+
 
     }
     /*

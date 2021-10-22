@@ -7,7 +7,7 @@ public class Casting {
         worker.work("QA Manager"); // variable of superman!
         worker.getPaid();// variable of superman!
 
-      //  worker.raiseKid();ERROR this wont work but we can cast and make it work !
+         //  worker.raiseKid();ERROR this wont work but we can cast and make it work !
         // example of casting!!
         ((Father)worker).raiseKid(); // this is the casting way
         ((SuperMan)worker).playWithKid(); // this is casting!

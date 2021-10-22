@@ -14,19 +14,17 @@ public class Array {
       */
 
 
-
-
-        String [] names = {"jorge","zizu","Aliham", "tolga", "0"};
+        String[] names = {"jorge", "zizu", "Aliham", "tolga", "0"};
         Arrays.sort(names);
         System.out.println(Arrays.toString(names));
 
-        int[] [] num = {{3,4},{2,4,6,8}};
+        int[][] num = {{3, 4}, {2, 4, 6, 8}};
         System.out.println(num[1][2]);
 
-        int[][] numbers = new int [2][3];
-        numbers [1][2] = 10;
+        int[][] numbers = new int[2][3];
+        numbers[1][2] = 10;
         System.out.println(Arrays.toString(numbers));
-     //    System.out.println(numbers[3][5]); Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
+        //    System.out.println(numbers[3][5]); Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
         //	at BookCamp.Array.main(Array.java:21)
         // lets
 
